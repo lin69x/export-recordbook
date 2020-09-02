@@ -4,7 +4,7 @@ import (
 	"github.com/ivahaev/go-xlsx-templater"
 )
 
-func main() {
+func export() {
 	doc := xlst.New()
 	doc.ReadTemplate("./template.xlsx")
 	ctx := map[string]interface{}{
